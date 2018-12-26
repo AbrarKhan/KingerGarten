@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".best_student.AddBestStudentFragment">
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="-55dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Day d/m/y"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Quran"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginLeft="49dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Quran"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        app:fontFamily="casual" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std1"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_std1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <EditText
+                        android:id="@+id/std1_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="First student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std2"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_std2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std2_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="second student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std3"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_std3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std3_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="third student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/save_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="10dp"
+                        android:text="save"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Math"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/math"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginLeft="49dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Math"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        app:fontFamily="casual" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std1_math"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_math_std1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std1_math_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="First student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std2_math"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_math_std2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std2_math_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="second student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std3_math"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_math_std3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std3_math_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="third student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/save_math_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="save"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/English"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/eng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginLeft="49dp"
+                        android:layout_marginTop="14dp"
+                        android:text="English"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        app:fontFamily="casual" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std1_english"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_english_std1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std1_english_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="First student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std2_english"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_english_std2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std2_english_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="second student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std3_english"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_english_std3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std3_english_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="third student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/save_english_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="save"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arabic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginLeft="49dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Arabic"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        app:fontFamily="casual" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std1_arabic"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_arabic_std1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <EditText
+                        android:id="@+id/std1_arabic_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="First student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std2_arabic"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_arabic_std2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+
+                    <EditText
+                        android:id="@+id/std2_arabic_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="second student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/std3_arabic"
+                        android:layout_width="82dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kindergarten"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/camera_arabic_std3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@android:drawable/ic_menu_camera"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+
+                    <EditText
+                        android:id="@+id/std3_arabic_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-55dp"
+                        android:ems="10"
+                        android:fontFamily="casual"
+                        android:hint="third student"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/save_arabic_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="save"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="11dp"
+        android:text="Date:"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "457185511102",
+    "firebase_url": "https://kingergarten-49af6.firebaseio.com",
+    "project_id": "kingergarten-49af6",
+    "storage_bucket": "kingergarten-49af6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457185511102:android:0e1f09b6ea962a77",
+        "android_client_info": {
+          "package_name": "app.kingergarten.kingergarten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457185511102-krt36egr40p8928r6u6k6b5ctdhkvtsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.kingergarten.kingergarten",
+            "certificate_hash": "24377390ba61cff40259ce67097143469cd4bc6c"
+          }
+        },
+        {
+          "client_id": "457185511102-4sjc7q9igbi71k3f9g46ce73s3r2onvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANnJqKdL5GHeU_JFnRxIEBGInGSle3yH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457185511102-4sjc7q9igbi71k3f9g46ce73s3r2onvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

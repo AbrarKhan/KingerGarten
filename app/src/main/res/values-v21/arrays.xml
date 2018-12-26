@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="time_table_list">
+    <item>Kindergarten1</item>
+    <item>Kindergarten2</item>
+    <item>Kindergarten3</item>
+    <item>Kindergarten4</item>
+</string-array>
+
+
+
+</resources>

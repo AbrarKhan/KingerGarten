@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".users.homePages.Home"
+    android:orientation="vertical"
+    android:background="@drawable/homex4">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="180dp"
+        android:background="#edecec"
+        android:layout_weight=".5"
+        android:id="@+id/view_pager">
+
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bgx2">
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/camx2" />
+
+        <Button
+            android:id="@+id/events"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="195dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/evx2" />
+
+        <Button
+            android:id="@+id/suggestion_b"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_alignStart="@+id/gallery"
+            android:layout_alignLeft="@+id/gallery"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/sugx2" />
+
+        <Button
+            android:id="@+id/best_std"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/bestx2" />
+    </RelativeLayout>
+</RelativeLayout>

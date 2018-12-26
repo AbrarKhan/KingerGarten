@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_stds"
+    android:layout_gravity="center"
+    android:background="@drawable/mathx4"
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="350dp"
+       android:id="@+id/r1"
+       android:layout_gravity="center"
+       android:orientation="vertical">
+
+
+   <!--<GridLayout-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:id="@+id/g1"-->
+       <!--android:orientation="vertical"-->
+       <!--android:columnCount="3">-->
+
+   <!--</GridLayout>-->
+   </LinearLayout>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/std1_img_q"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:src="@drawable/kindergarten"-->
+            <!--app:civ_border_color="#FF000000"-->
+            <!--app:civ_border_width="2dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/std1_q"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:gravity="center"-->
+            <!--android:text=" std1"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+            <!--android:textColor="#c65006"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold|italic" />-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/std2_img_q"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="90dp"-->
+            <!--android:src="@drawable/kindergarten"-->
+            <!--app:civ_border_color="#FF000000"-->
+            <!--app:civ_border_width="2dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/std2_q"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="110dp"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:gravity="center"-->
+            <!--android:text=" std1"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+            <!--android:textColor="#c65006"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold|italic" />-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/std3_img_q"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginStart="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="160dp"-->
+            <!--android:src="@drawable/kindergarten"-->
+            <!--app:civ_border_color="#FF000000"-->
+            <!--app:civ_border_width="2dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/std3_q"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="180dp"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:fontFamily="serif"-->
+            <!--android:gravity="center"-->
+            <!--android:text=" std1"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Caption"-->
+            <!--android:textColor="#c65006"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold|italic" />-->
+
+    <!--</RelativeLayout>-->
+</android.support.v7.widget.CardView>
+
+
